@@ -1,0 +1,13 @@
+[server]
+# serve ./static (banner images, logo) at app/static/...
+enableStaticServing = true
+
+[browser]
+# no calls to external telemetry endpoints
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
